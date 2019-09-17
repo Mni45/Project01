@@ -1,20 +1,45 @@
 /* NE PAS TOUCHER !! */
 
+body {
+    background-color: white;
+    box-sizing: border-box;
+}
 
+
+.bloc_Page {
+    width: 85%;
+    margin: auto;
+}
+h2 {
+
+    font-family: 'Titillium Web', sans-serif; 
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    margin: 2%;
+    margin-bottom: 3px;
+}
+
+
+h3 {
+    font-family: 'Titillium Web', sans-serif; 
+    font-size: 2vw;
+    padding: 2%;
+}
 
 /* HEADER / CAROUSEL JO' */
 
-nav{
+nav {
     display: flex;
     align-items: center;
     background-color: #53872A;
     padding:1%;
     font-size:2vw;
  }
- nav a{
+ nav a {
     color:#8C5935;
     margin-left: 2%;
     padding:1%;
+    font-family: 'Titillium Web', sans-serif; 
  }
  nav a:hover{
     opacity : 0.8;
@@ -29,7 +54,7 @@ nav{
 
 /* section actions LUCAS */
 
-body{
+body {
     margin: 0;
     padding: 0;
 }
@@ -40,7 +65,7 @@ h2, h3 {
 
 
 #ACTIONS {
-    background-color: rgb(221, 221, 221);
+    background-color: white;
 }
 .actions {
     display: flex;
@@ -88,6 +113,8 @@ h2, h3 {
 
 .texteUn {
     width: 60%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
 }
 
 .collecte {
