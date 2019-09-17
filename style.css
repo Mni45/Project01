@@ -2,9 +2,30 @@
 
 
 
-/* HEADER / CAROUSEL JOE */
+/* HEADER / CAROUSEL JO' */
 
-
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #53872A;
+    padding:1%;
+    font-size:2vw;
+ }
+ nav a{
+    color:#8C5935;
+    margin-left: 2%;
+    padding:1%;
+ }
+ nav a:hover{
+    opacity : 0.8;
+    cursor: pointer;
+    background-color:#8C5935;
+    color:#53872A;
+    border-radius:21% 79% 69% 31% / 14% 29% 71% 86% ;
+ }
+ .carousel img{
+    width:100%;
+ }
 
 /* section actions LUCAS */
 
