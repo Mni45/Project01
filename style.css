@@ -1,0 +1,63 @@
+/* NE PAS TOUCHER !! */
+
+
+
+/* HEADER / CAROUSEL JOE */
+
+
+
+/* section actions LUCAS */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+
+#ACTIONS {
+    background-color: rgb(221, 221, 221);
+}
+.actions {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.img_center {
+    display: block;
+    margin: auto;
+}
+
+.action_1, .action_2, .action_3 {
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.description_cachée {
+    display: block;
+    position: absolute;
+    background:rgb(0, 0, 0, 0.5);
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+}
+
+.description_cachée:hover{
+    opacity: 1;
+    transition-duration: 0.3s;
+}
+
+/* section association BARBARA */
+
+
+
+/* section déchet LILIAN */
+
+
+
+/* contact footer AMANI */
