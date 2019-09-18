@@ -1,3 +1,4 @@
+
 /* NE PAS TOUCHER !! */
 
 body {
@@ -11,9 +12,16 @@ body {
     margin: auto;
 }
 
+h1{
+   font-family: 'Titillium Web', sans-serif;
+   font-size:3vw;
+   text-align:center;
+   margin:2%;
+}
+
 h2 {
 
-    font-family: 'Titillium Web', sans-serif; 
+    font-family: 'Titillium Web', sans-serif;
     font-size: 2.5vw;
     text-transform: uppercase;
     margin: 2%;
@@ -22,35 +30,49 @@ h2 {
 
 
 h3 {
-    font-family: 'Titillium Web', sans-serif; 
+    font-family: 'Titillium Web', sans-serif;
     font-size: 2vw;
     padding: 2%;
 }
 
-/* HEADER / CAROUSEL JO' */
+h2, h3 {
+    text-align: center;
+}
 
+/* HEADER / CAROUSEL JO' */
+.header{
+    margin-left:2%;
+    margin-right:2%;
+}
 nav {
     display: flex;
     align-items: center;
     background-color: #53872A;
-    padding:1%;
-    font-size:2vw;
- }
+    font-size:2.5vw;
+    border-radius:20px;
+    border : outset 2px;
+  }
+nav img{
+    border-radius:50%;
+    margin-left: 2%;
+}
  nav a {
     color:#8C5935;
-    margin-left: 2%;
     padding:1%;
-    font-family: 'Titillium Web', sans-serif; 
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 5%;
  }
  nav a:hover{
     opacity : 0.8;
     cursor: pointer;
     background-color:#8C5935;
     color:#53872A;
-    border-radius:21% 79% 69% 31% / 14% 29% 71% 86% ;
+    border-radius:83% 17% 79% 21% / 22% 72% 28% 78% ;
  }
  .carousel img{
     width:100%;
+    border-radius:20px;
+    border : outset 2px;
  }
 
 /* section actions LUCAS */
@@ -60,14 +82,17 @@ body {
     padding: 0;
 }
 
-h2, h3 {
-    text-align: center;
+.fond_association h3{
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
 }
-
 
 #ACTIONS {
     background-color: white;
 }
+
 .actions {
     display: flex;
     justify-content: space-around;
@@ -78,30 +103,55 @@ h2, h3 {
 .img_center {
     display: block;
     margin: auto;
+    border-radius:50%;
+    height: 350px;
+    width: 350px;
+    box-shadow: 0px 0px 7px 2px rgba(255, 255, 255, 0.36);
+    -webkit-box-shadow: 0px 0px 7px 2px rgba(255, 255, 255, 0.36);
+    -moz-box-shadow: 0px 0px 7px 2px rgba(255, 255, 255, 0.36);
 }
 
-.action_1, .action_2, .action_3 {
+.fond_association, .fond_actions {
     background-color: white;
     padding-bottom: 10px;
 }
 
-.description_cachée {
-    display: block;
+.description_cachée, .titre_caché_asso {
+    display: flex;
     position: absolute;
-    background:rgb(0, 0, 0, 0.5);
-    width: 300px;
-    height: 300px;
     opacity: 0;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
-.description_cachée:hover{
+.description_cachée p{
+  text-align: center;
+}
+
+.description_cachée:hover, .titre_caché_asso:hover{
     opacity: 1;
-    transition-duration: 0.3s;
+    transition-duration: 0.30s;
+    box-shadow: 0px 0px 29px 2px rgba(0,0,0,0.42);
+-webkit-box-shadow: 0px 0px 29px 2px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 0px 29px 2px rgba(0,0,0,0.42);
 }
 
 /* section association BARBARA */
 
+.actions{
+  padding: 100px 0;
+}
 
+.asso_1, .asso_3{
+  background-color:rgba(197, 164, 44, 0.8);
+}
+
+.asso_2{
+  background-color: rgba(71, 126, 32, 0.85);
+}
 
 /* section déchet LILIAN */
 
@@ -211,69 +261,77 @@ details > p {
 }
 
 
-/* contact footer AMANI */
-#CONTACT {
+/* contact AMANI */
+.contact {
     background-color:lightgrey;
-    width:100%;
-    height:100%;
     display:flex;
     flex-direction:column;
-    align-items:center;
+    height: 500px;
+    align-items:space-between;
+    justify-content:center;
+    border: outset 3px;
+    border-radius: 12px;
+    margin-top:3%;
+    padding-bottom:3%;
     }
   
-  .formulaire{
-    border:2px solid red;
-    height:200%;
-    width:150%;
+  .align-form{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     flex-direction:column;
-    align-items:space-between;
-    
+    height:350px;
   }
-  
+
+  form{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    height: 450px;
+  }
+
   .div1, .div2, .div3{
     display:flex;
-    border:2px solid yellow;
-    align-items:flex-start;
-    flex-direction:row;
-    justify-content:space-between;
-    height: 100%;
+    align-items:center;
+    flex-direction:column;
+    justify-content: space-between;
+    height:20%;
   }
   
   
   .align-name, .align-email, .align-message {
     display: flex;
-    border: 2px solid green;
-    width:50%;
-    height:100%;
     align-items:flex-start;
     justify-content: flex-end;
   }
 
-
   input{
-    border-radius:5px;
-    width:px;
-    border:none;
-    height:px;
+    border-radius:20px;
+    border:outset 1px;
+    height:30px;
   }
   
   textarea {
     width:255px;
     height:60px;
-    border-radius:5px;
-    border:none;
+    padding-top: 15px;
+    padding-bottom:30px;
+    margin-top:10px;
+    border-radius:20px;
+    border:outset 1px;   
     resize:none;
-    
   }
   
   button{
     background-color:grey;
     border-radius:5px;
     color:white;
-    height:25px;
+    height:50px;
     border:none;
+    margin-top:70px;
+  }
+
+  button:hover {
+    background-color: #8C5935;
   }
   
 
@@ -285,6 +343,9 @@ details > p {
     display:flex;
     background-color:grey;
     height:200px;
+    font-size: 0.4cm;
+    border: outset black 3px;
+    border-radius: 12px;
   }
   
   .row_one{
@@ -292,33 +353,71 @@ details > p {
     flex-direction:column;
     align-items:center;
     justify-content:space-around;
-    width:40%;
+    width:30%;
   }
   
   .row_two {
     display:flex;
+    flex-direction:row;
     align-items:center;
     justify-content:space-around;
-    width: 40%; 
+    width:40%;
   }
   
-  .last-p {
+  .certification{
     display:flex;
-    width:50%;
+    width:40%;
     align-items:flex-end;
+    justify-content:center;
   }
   
+  .row_one a, .row_two a {
+    text-decoration: none;
+    color:wheat;
+  }
   
-  @media screen and (max-width: 900px) {
 
-    .conseils {
-        display: flex;
-        flex-direction: column;
+  /* fin du footer */
+/* Fin mode Desktop */
+
+/* Debut mode Mobile*/
+@media sreen and (max width:991px){
+  /* Head */
+
+
+
+  /* Fin Head */
+  /* Partie Jo' */
+
+    .nav {
+      opacity:0,5;
     }
 
-    .collecte {
-        display: flex;
-        flex-direction: column-reverse;
-    }
+  /* Fin Parie Jo' */
 
+  /* Partie Lucas */
+
+
+
+  /* Fin Partie Lucas */
+
+  /* Partie Barbara*/
+
+
+
+  /* Fin partie Barbara*/
+
+  /* Partie Lilian*/
+
+
+
+  /* Fin partie Lilian*/
+
+  /* Partie Mamanite */
+
+
+
+  /* Fin Partie Mamanite*/
 }
+
+/*Fin Mode Mobile*/
