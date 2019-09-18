@@ -1,3 +1,4 @@
+
 /* NE PAS TOUCHER !! */
 
 body {
@@ -295,3 +296,44 @@ details > p {
   }
   
   /* fin du footer */
+/* Fin mode Desktop */
+
+/* Debut mode Mobile*/
+@media sreen and (max width:991px){
+  /* Head */
+
+
+
+  /* Fin Head */
+  /* Partie Jo' */
+
+
+
+  /* Fin Parie Jo' */
+
+  /* Partie Lucas */
+
+
+
+  /* Fin Partie Lucas */
+
+  /* Partie Barbara*/
+
+
+
+  /* Fin partie Barbara*/
+
+  /* Partie Lilian*/
+
+
+
+  /* Fin partie Lilian*/
+
+  /* Partie Mamanite */
+
+
+
+  /* Fin Partie Mamanite*/
+}
+
+/*Fin Mode Mobile*/
