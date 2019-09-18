@@ -63,7 +63,6 @@ h2, h3 {
     text-align: center;
 }
 
-
 #ACTIONS {
     background-color: white;
 }
@@ -77,25 +76,36 @@ h2, h3 {
 .img_center {
     display: block;
     margin: auto;
+    border-radius:50%;
 }
 
-.action_1, .action_2, .action_3 {
+.fond_association, .fond_actions {
     background-color: white;
     padding-bottom: 10px;
 }
 
-.description_cachée {
-    display: block;
+.description_cachée, .titre_caché_asso {
+    display: flex;
     position: absolute;
     background:rgb(0, 0, 0, 0.5);
-    width: 300px;
-    height: 300px;
     opacity: 0;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
-.description_cachée:hover{
+.description_cachée p{
+  text-align: center;
+}
+
+.description_cachée:hover, .titre_caché_asso:hover{
     opacity: 1;
     transition-duration: 0.3s;
+    box-shadow: 0px 0px 16px 6px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 0px 0px 16px 6px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 0px 16px 6px rgba(0,0,0,0.7);
 }
 
 /* section association BARBARA */
