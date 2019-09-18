@@ -10,9 +10,15 @@ body {
     width: 85%;
     margin: auto;
 }
+h1{
+   font-family: 'Titillium Web', sans-serif;
+   font-size:3vw;
+   text-align:center;
+   margin:2%;
+}
 h2 {
 
-    font-family: 'Titillium Web', sans-serif; 
+    font-family: 'Titillium Web', sans-serif;
     font-size: 2.5vw;
     text-transform: uppercase;
     margin: 2%;
@@ -21,35 +27,45 @@ h2 {
 
 
 h3 {
-    font-family: 'Titillium Web', sans-serif; 
+    font-family: 'Titillium Web', sans-serif;
     font-size: 2vw;
     padding: 2%;
 }
 
 /* HEADER / CAROUSEL JO' */
-
+.header{
+    margin-left:2%;
+    margin-right:2%;
+}
 nav {
     display: flex;
     align-items: center;
     background-color: #53872A;
-    padding:1%;
-    font-size:2vw;
- }
+    font-size:2.5vw;
+    border-radius:20px;
+    border : outset 2px;
+  }
+nav img{
+    border-radius:50%;
+    margin-left: 2%;
+}
  nav a {
     color:#8C5935;
-    margin-left: 2%;
     padding:1%;
-    font-family: 'Titillium Web', sans-serif; 
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 5%;
  }
  nav a:hover{
     opacity : 0.8;
     cursor: pointer;
     background-color:#8C5935;
     color:#53872A;
-    border-radius:21% 79% 69% 31% / 14% 29% 71% 86% ;
+    border-radius:83% 17% 79% 21% / 22% 72% 28% 78% ;
  }
  .carousel img{
     width:100%;
+    border-radius:20px;
+    border : outset 2px;
  }
 
 /* section actions LUCAS */
