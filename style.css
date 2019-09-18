@@ -307,7 +307,9 @@ details > p {
   /* Fin Head */
   /* Partie Jo' */
 
-
+    .nav {
+      opacity:0,5;
+    }
 
   /* Fin Parie Jo' */
 
