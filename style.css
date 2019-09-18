@@ -26,6 +26,10 @@ h3 {
     padding: 2%;
 }
 
+h2, h3 {
+    text-align: center;
+}
+
 /* HEADER / CAROUSEL JO' */
 
 nav {
@@ -59,13 +63,17 @@ body {
     padding: 0;
 }
 
-h2, h3 {
-    text-align: center;
+.fond_association h3{
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 #ACTIONS {
     background-color: white;
 }
+
 .actions {
     display: flex;
     justify-content: space-around;
@@ -77,6 +85,11 @@ h2, h3 {
     display: block;
     margin: auto;
     border-radius:50%;
+    height: 350px;
+    width: 350px;
+    box-shadow: 0px 0px 7px 2px rgba(255, 255, 255, 0.36);
+    -webkit-box-shadow: 0px 0px 7px 2px rgba(255, 255, 255, 0.36);
+    -moz-box-shadow: 0px 0px 7px 2px rgba(255, 255, 255, 0.36);
 }
 
 .fond_association, .fond_actions {
@@ -87,7 +100,6 @@ h2, h3 {
 .description_cachée, .titre_caché_asso {
     display: flex;
     position: absolute;
-    background:rgb(0, 0, 0, 0.5);
     opacity: 0;
     width: 350px;
     height: 350px;
@@ -102,15 +114,25 @@ h2, h3 {
 
 .description_cachée:hover, .titre_caché_asso:hover{
     opacity: 1;
-    transition-duration: 0.3s;
-    box-shadow: 0px 0px 16px 6px rgba(0,0,0,0.7);
-    -webkit-box-shadow: 0px 0px 16px 6px rgba(0,0,0,0.7);
-    -moz-box-shadow: 0px 0px 16px 6px rgba(0,0,0,0.7);
+    transition-duration: 0.30s;
+    box-shadow: 0px 0px 29px 2px rgba(0,0,0,0.42);
+-webkit-box-shadow: 0px 0px 29px 2px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 0px 29px 2px rgba(0,0,0,0.42);
 }
 
 /* section association BARBARA */
 
+.actions{
+  padding: 100px 0;
+}
 
+.asso_1, .asso_3{
+  background-color:rgba(197, 164, 44, 0.8);
+}
+
+.asso_2{
+  background-color: rgba(71, 126, 32, 0.85);
+}
 
 /* section déchet LILIAN */
 
