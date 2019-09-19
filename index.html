@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-       <meta charset="utf-8">
+       <meta charset="UTF-8">
        <meta name="description" content="">
        <meta name="viewport" content="width=device-width, initial-scale=1">
        <title>Page association</title>
@@ -18,12 +18,14 @@
 
     <header class = header>
         <nav>
-            <img src="https://via.placeholder.com/65">
-            <a href="#ACTIONS">ACTIONS</a>
-            <a href="#ASSOCIATIONS">ASSOCIATIONS</a>
-            <a href="#DECHETS">DECHETS</a>
-            <a href="#CONTACT">CONTACT</a>
-
+            <div class="links" id="menu">
+               <img src="https://via.placeholder.com/65" alt="logo">
+               <a href="#ACTIONS">ACTIONS</a>
+               <a href="#ASSOCIATIONS">ASSOCIATIONS</a>
+               <a href="#DECHETS">DECHETS</a>
+               <a href="#CONTACT">CONTACT</a>
+            </div>
+            <a class="burger" href="#menu">Menu</a>
         </nav>
         <div class="carousel">
             <img src="https://image.noelshack.com/fichiers/2019/38/2/1568708067-victor-ndk-3biaghc-unsplash-1.jpg" alt="carousel">
@@ -31,7 +33,7 @@
    </header>
 
     <h1>Protégons la Terre de demain !</h1>
-
+<div class="bloc_Page">
 
 <!-- section actions LUCAS -->
     <hr>
@@ -40,25 +42,25 @@
         <h2>ACTIONS</h2>
 
         <div class="actions">
-            <div class="action_1">
+            <div class="fond_actions">
                <div class="description_cachée">
                   <p>Incenderat autem audaces usque ad insaniam homines ad haec, quae nefariis egere conatibus</p>
                </div>
-               <img src="https://via.placeholder.com/300" alt="action une" class="img_center">
+               <img src="https://via.placeholder.com/400" alt="action une" class="img_center">
                <h3>Action 1</h3>
             </div>
-            <div class="action_2">
+            <div class="fond_actions">
                <div class="description_cachée">
                   <p>Incenderat autem audaces usque ad insaniam homines ad haec, quae nefariis egere conatibus</p>
                </div>
-               <img src="https://via.placeholder.com/300" alt="action une" class="img_center">
+               <img src="https://via.placeholder.com/400" alt="action une" class="img_center">
                <h3>Action 2</h3>
             </div>
-            <div class="action_3">
+            <div class="fond_actions">
                <div class="description_cachée">
                   <p>Incenderat autem audaces usque ad insaniam homines ad haec, quae nefariis egere conatibus</p>
                </div>
-               <img src="https://via.placeholder.com/300" alt="action une" class="img_center">
+               <img src="https://via.placeholder.com/400" alt="action une" class="img_center">
                <h3>Action 3</h3>
             </div>
 
@@ -68,29 +70,32 @@
 <!-- section association BARBARA -->
     <hr>
 
-    <section id="ASSOCIATION">
+    <section id="#ASSOCIATIONS">
         <h2>ASSOCIATION</h2>
         <div class="actions">
-            <div class="action_1">
-               <div class="description_cachée">
-                  <p>Incenderat autem audaces usque ad insaniam homines ad haec, quae nefariis egere conatibus</p>
+            <div class="fond_association">
+               <a href="#">
+               <div class="asso_1 titre_caché_asso">
+               <h3>JE NETTOIE MA LOIRE</h3>   
                </div>
-               <img src="https://via.placeholder.com/300" alt="action une" class="img_center">
-               <h3>Action 1</h3>
+               </a>
+               <img src="photos/je_nettoie_ma_loire_square.jpeg" alt="image de l'asso je netoie ma loire" class="img_center">
             </div>
-            <div class="action_2">
-               <div class="description_cachée">
-                  <p>Incenderat autem audaces usque ad insaniam homines ad haec, quae nefariis egere conatibus</p>
+            <div class="fond_association">
+               <a href="#">
+               <div class="asso_2 titre_caché_asso">
+                  <h3>LOIRET NATURE</h3>
                </div>
-               <img src="https://via.placeholder.com/300" alt="action une" class="img_center">
-               <h3>Action 2</h3>
+               </a>
+               <img src="photos/loiet-nature3_square.jpg" alt="asso loire et nature" class="img_center">
             </div>
-            <div class="action_3">
-               <div class="description_cachée">
-                  <p>Incenderat autem audaces usque ad insaniam homines ad haec, quae nefariis egere conatibus</p>
+            <div class="fond_association">
+               <a href="#">
+               <div class="asso_3 titre_caché_asso">
+                  <h3>RESSOURCERIE</h3>
                </div>
-               <img src="https://via.placeholder.com/300" alt="action une" class="img_center">
-               <h3>Action 3</h3>
+               </a>
+               <img src="photos/ressourcerie4square.jpg" alt="action la ressourcerie" class="img_center">
             </div>
         </div>
     </section>
@@ -105,41 +110,73 @@
 
         <div class="conseils">
             
-            <img class="photoUne" src="https://images.unsplash.com/photo-1503596476-1c12a8ba09a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80" alt="placeholder 50 x 50">
+            <img class="photoUne" src="https://images.unsplash.com/photo-1503596476-1c12a8ba09a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80" alt="Man">
             
             <div class="texteUn">
-                <p>La gestion des déchets c’est quoi ? 
+                <p><span class="fat">La gestion des déchets, c’est quoi ? </span>
                 <br>
                 <br>
-                C'est simple... D’abord suivre les gestes faciles pour faire maigrir sa poubelle en choisissant des produits peu ou pas emballés. Et pourquoi ne pas opter pour des produits avec des labels environnement ou des sacs réutilisables, coller des auto-collants stop pubs sur sa boîtes aux lettres, préférer l’eau au robinet plutôt qu’en bouteille, freiner les impressions, prolonger la vie des objets. Etc. Il est encore possible de donner une deuxième vie à ses objets, adopter la cuisine zéro gaspi… 
+                C'est simple... Elle commence avec vous. D’abord, opter pour des gestes faciles en choisissant des produits peu ou pas emballés. Et pourquoi ne pas regarder vers les produits munis de labels environnement ou les sacs réutilisables ? Collez aussi des auto-collants "stop" pubs sur vos boîtes aux lettres, préférez l’eau au robinet plutôt qu’en bouteille, freinez les impressions, prolongez la vie des objets... Il est encore possible de donner une deuxième vie à ses objets, d'adopter la cuisine zéro gaspi… 
                 <br>
                 <br>
-                Une fois tous ces efforts faits, il n’y a plus qu’à choisir le point de collecte adapté dans la Métropole d’Orléans. Voici toutes les options possibles au sein du territoire métropolitain. Il suffit d’entrer sa ville...</p>
+                <span class="fatDeux">Pour optimiser vos efforts</span>, choisissez le point de collecte adapté dans la Métropole. Voici quelques options possibles au sein du territoire...</p>
             </div>
          </div>
          <h3>Points de collecte</h3>
          <div class="collecte">
             <div class="details">
 
+                    <div class="dechetteries">
                     <details>
-                        <summary>Details collecte</summary>
-                        <p>Voici ce qu'il faut faire dans ce cas-là. Voici ce qu'il faut faire dans ce cas-là. Voici ce qu'il faut faire dans ce cas-là.</p>
+                        <summary>Déchetteries</summary>
+                        <ul>
+                            <li>Est : Chécy (rue Pierre-et- Marie-Curie</li>
+                            <li>Ouest : Ingré (chemin de la Vallée de l’Azin)</li>
+                            <li>Sud-ouest : Orléans (chemin du Clos-de-l’Alouette)</li>
+                            <li>Sud-est : Saint-Cyr-en-Val (avenue du Parc-Floral)</li>
+                            <li>Nord-est : Saint-Jean-de Braye (rue de la Burelle)</li>
+                            <li>Nord : Saran (rue Marcel-Paul)</li>
+                        </ul>
+                        <ul>    
+                            <li><a class="lienDeux" href="http://www.orleans-metropole.fr/1377/tri-et-dechetteries.htm">Plus d'infos</a></li>
+                        </ul>
+                    
                     </details>
+                    </div>
 
+                    <div class="Vege">
                     <details>
-                        <summary>Details collecte</summary>
-                        <p>Voici ce qu'il faut faire dans ce cas-là. Voici ce qu'il faut faire dans ce cas-là. Voici ce qu'il faut faire dans ce cas-là.</p>
+                        <summary>Végé'Tri</summary>
+                        <ul>
+                            <li>Saint-Pryvé-Saint-Mesmin, impasse des Moiness</li>
+                            <li>Ingré, rue de la Vallée</li>
+                            <li>Chécy, rue Pierre-et-Marie-Curie</li>
+                            <li>Saint-Cyr-en-Val, avenue du Parc-Floral</li>
+                        </ul>
+                        <ul>
+                            <li><a class="lienTrois"href="http://www.orleans-metropole.fr/1377/tri-et-dechetteries.htm">Plus d'infos</a></li>
+                        </ul>
                     </details>
+                    </div>
 
+                    <div class="encombrants">
                     <details>
-                        <summary>Details collecte</summary>
-                        <p>Voici ce qu'il faut faire dans ce cas-là. Voici ce qu'il faut faire dans ce cas-là. Voici ce qu'il faut faire dans ce cas-là.</p>
+                        <summary>Les encombrants</summary>
+                        <ul>
+                            <li>Orléans Métropole collecte les objets volumineux de tous les habitants</li>
+                        </ul>
+                        <ul>
+                            <li><a class="lienUn" href="http://195.154.186.62/"> Plus d'infos</a></li>
+                        </ul>
+
                     </details>
+                    </div>
             </div>
+
             <br>
 
             
-            <img class="photoDeux" src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="placeholder 50 x 50">
+            <img class="photoDeux" src="https://images.unsplash.com/photo-1561503412-852800622772?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80" alt="Trash">
         </div>
 
     </section>
@@ -179,6 +216,7 @@
             <br>
         </form>
    </section>
+   </div>
     <br>
     <footer>
         <div class="row_one">
