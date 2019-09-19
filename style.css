@@ -161,65 +161,6 @@ body {
   background-color: rgba(71, 126, 32, 0.85);
 }
 
-/* section déchet LILIAN */
-
-.conseils {
-    display: flex;
-    justify-content: space-around;  
-    align-items: center;
-}
-
-.photoUne {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-}
-
-.texteUn {
-    width: 60%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    padding: 1em;
-    border: 1px solid blue;
-    border-radius: 20px;
-    border : outset 2px;
-
-}
-
-.collecte {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
-.photoDeux {
-    width: 40%;
-    height: 40%;
-    border-radius: 50%;
-    
-}
-
-
-details {
-  font-size: 1.5em;
-  width: 800px;
-}
-
-details > summary {
-  padding: 2%;
-  width: 15em;
-  background-color: white;
-  box-shadow: 3px 3px 4px black;
-}
-
-details > p {
-  border-radius: 0 0 10px 10px;
-  background-color: white;
-  padding: 1%;
-  margin: 0;
-  box-shadow: 3px 3px 4px black;
-}
 
 
 /* contact AMANI */
