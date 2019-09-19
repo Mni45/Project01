@@ -10,12 +10,14 @@ body {
     width: 85%;
     margin: auto;
 }
+
 h1{
    font-family: 'Titillium Web', sans-serif;
    font-size:3vw;
    text-align:center;
    margin:2%;
 }
+
 h2 {
 
     font-family: 'Titillium Web', sans-serif;
@@ -30,6 +32,10 @@ h3 {
     font-family: 'Titillium Web', sans-serif;
     font-size: 2vw;
     padding: 2%;
+}
+
+h2, h3 {
+    text-align: center;
 }
 
 /* HEADER / CAROUSEL JO' */
@@ -86,14 +92,17 @@ body {
     padding: 0;
 }
 
-h2, h3 {
-    text-align: center;
+.fond_association h3{
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
 }
-
 
 #ACTIONS {
     background-color: white;
 }
+
 .actions {
     display: flex;
     justify-content: space-around;
@@ -104,89 +113,161 @@ h2, h3 {
 .img_center {
     display: block;
     margin: auto;
+    border-radius:50%;
+    height: 350px;
+    width: 350px;
+    box-shadow: 0px 0px 7px 2px rgba(255, 255, 255, 0.36);
+    -webkit-box-shadow: 0px 0px 7px 2px rgba(255, 255, 255, 0.36);
+    -moz-box-shadow: 0px 0px 7px 2px rgba(255, 255, 255, 0.36);
 }
 
-.action_1, .action_2, .action_3 {
+.fond_association, .fond_actions {
     background-color: white;
     padding-bottom: 10px;
 }
 
-.description_cachée {
-    display: block;
+.description_cachée, .titre_caché_asso {
+    display: flex;
     position: absolute;
-    background:rgb(0, 0, 0, 0.5);
-    width: 300px;
-    height: 300px;
     opacity: 0;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
-.description_cachée:hover{
+.description_cachée p{
+  text-align: center;
+}
+
+.description_cachée:hover, .titre_caché_asso:hover{
     opacity: 1;
-    transition-duration: 0.3s;
+    transition-duration: 0.30s;
+    box-shadow: 0px 0px 29px 2px rgba(0,0,0,0.42);
+-webkit-box-shadow: 0px 0px 29px 2px rgba(0,0,0,0.42);
+-moz-box-shadow: 0px 0px 29px 2px rgba(0,0,0,0.42);
 }
 
 /* section association BARBARA */
 
+.actions{
+  padding: 100px 0;
+}
 
+.asso_1, .asso_3{
+  background-color:rgba(197, 164, 44, 0.8);
+}
+
+.asso_2{
+  background-color: rgba(71, 126, 32, 0.85);
+}
 
 /* section déchet LILIAN */
 
 .conseils {
     display: flex;
-    justify-content: space-around;  
-    align-items: center;
+    justify-content: space-around;
 }
 
 .photoUne {
     width: 400px;
     height: 400px;
     border-radius: 50%;
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.42);
+    -moz-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.42);
 }
 
 .texteUn {
     width: 60%;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+    font-size: 1.3em;
     padding: 1em;
-    border: 1px solid blue;
     border-radius: 20px;
-    border : outset 2px;
+    border: outset 2px;
+}
 
+.fat {
+    font-weight: bolder;
+}
+
+.fatDeux {
+    font-weight: bolder;
 }
 
 .collecte {
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
 
 .photoDeux {
-    width: 40%;
-    height: 40%;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
-    
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.42);
+    -moz-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.42);
 }
 
-
-details {
-  font-size: 1.5em;
-  width: 800px;
+.lienUn {
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    color: green;
+    text-decoration: none;
+    font-weight: bolder;
 }
+
+.lienDeux {
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    color: green;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.lienTrois {
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    color: green;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.details ul {
+  list-style: none;
+}
+
+.encombrants {
+    height: 150px;
+}
+
+.dechetteries {
+    height: 220px;
+}
+
+.Vege {
+    height: 220px;
+}
+
 
 details > summary {
+  font-family: 'Open Sans', sans-serif;
   padding: 2%;
-  width: 15em;
+  width: 20em;
   background-color: white;
-  box-shadow: 3px 3px 4px black;
+  font-size: 1.5em;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 1px 1px 2px black;
 }
 
 details > p {
-  border-radius: 0 0 10px 10px;
+  font-family: 'Open Sans', sans-serif;
   background-color: white;
-  padding: 1%;
-  margin: 0;
-  box-shadow: 3px 3px 4px black;
+  font-size: 2em;
 }
 
 
@@ -305,6 +386,7 @@ details > p {
     color:wheat;
   }
   
+
   /* fin du footer */
 /* Fin mode Desktop */
 
