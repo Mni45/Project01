@@ -2,12 +2,13 @@
 <html lang="fr">
 
 <head>
-       <meta charset="utf-8">
+       <meta charset="UTF-8">
        <meta name="description" content="">
        <meta name="viewport" content="width=device-width, initial-scale=1">
        <title>Page association</title>
        <link rel="stylesheet" href="style.css">
        <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" rel="stylesheet">
        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
@@ -17,12 +18,14 @@
 
     <header class = header>
         <nav>
-            <img src="https://via.placeholder.com/65">
-            <a href="#ACTIONS">ACTIONS</a>
-            <a href="#ASSOCIATIONS">ASSOCIATIONS</a>
-            <a href="#DECHETS">DECHETS</a>
-            <a href="#CONTACT">CONTACT</a>
-
+            <div class="links" id="menu">
+               <img src="https://via.placeholder.com/65" alt="logo">
+               <a href="#ACTIONS">ACTIONS</a>
+               <a href="#ASSOCIATIONS">ASSOCIATIONS</a>
+               <a href="#DECHETS">DECHETS</a>
+               <a href="#CONTACT">CONTACT</a>
+            </div>
+            <a class="burger" href="#menu">Menu</a>
         </nav>
         <div class="carousel">
             <img src="https://image.noelshack.com/fichiers/2019/38/2/1568708067-victor-ndk-3biaghc-unsplash-1.jpg" alt="carousel">
@@ -30,7 +33,7 @@
    </header>
 
     <h1>Protégons la Terre de demain !</h1>
-
+<div class="bloc_Page">
 
 <!-- section actions LUCAS -->
     <hr>
@@ -76,7 +79,7 @@
                <h3>JE NETTOIE MA LOIRE</h3>   
                </div>
                </a>
-               <img src="photos/je nettoie ma loire square.jpeg" alt="action une" class="img_center">
+               <img src="photos/je_nettoie_ma_loire_square.jpeg" alt="image de l'asso je netoie ma loire" class="img_center">
             </div>
             <div class="fond_association">
                <a href="#">
@@ -84,7 +87,7 @@
                   <h3>LOIRET NATURE</h3>
                </div>
                </a>
-               <img src="photos/loiet-nature3 square.jpg" alt="action " class="img_center">
+               <img src="photos/loiet-nature3_square.jpg" alt="asso loire et nature" class="img_center">
             </div>
             <div class="fond_association">
                <a href="#">
@@ -92,7 +95,7 @@
                   <h3>RESSOURCERIE</h3>
                </div>
                </a>
-               <img src="photos/ressourcerie4square.jpg" alt="action une" class="img_center">
+               <img src="photos/ressourcerie4square.jpg" alt="action la ressourcerie" class="img_center">
             </div>
         </div>
     </section>
@@ -201,7 +204,7 @@
                <div class="div2">
                   <div class="align-email">
                      <label for="email">
-                        EMAIL
+                        E-MAIL
                      </label>
                   </div>
                   <input type="email">
@@ -219,6 +222,7 @@
             <br>
         </form>
    </section>
+   </div>
     <br>
     <footer>
         <div class="row_one">
@@ -228,12 +232,24 @@
             <a href="">Qui sommes-nous ?</a>
             <a href="">Contactez-nous</a>
          </div>
-         <div class="certification">
+         <div class="row_two" >
+            <div class="Connect_with_us">
+                  <span class="footer-social">Connect <span class="footer-social-small">with</span> Us</span>
+                  <div class="social_networks">
+                     <a href=""><i class="fab fa-twitter"></i></a>
+                     <a href=""><i class="fab fa-pinterest-p"></i></a>   
+                     <a href=""><i class="fab fa-facebook-f"></i></a>   
+                     <a href=""><i class="fab fa-instagram"></i></a>   
+                     <a href=""><i class="fab fa-google-plus-g"></i></a>
+               </div>   
+            </div>
+            <div class="certification">     
             <p>
                © 2005-2019 notreassociation.info ®
             </p>
+         </div> 
          </div>
-         <div class="row_two">
+         <div class="row_three">
             <a href="">Membres</a>
             <a href="">Devenire membre prenium</a>
             <a href="">Forums de discussions</a>
