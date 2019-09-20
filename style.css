@@ -428,7 +428,6 @@ footer {
     display:flex;
     background-color:#406633;
     height:200px;
-    font-size: 0.4cm;
   }
   
 .row_one{
@@ -444,16 +443,16 @@ footer {
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    width:50%;
+    justify-content:center;
+    width:40%;
   }
   
 .row_three {
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     align-items:center;
     justify-content:space-around;
-    width:40%;
+    width:30%;
   }
 
 .Connect_with_us{
@@ -465,7 +464,6 @@ footer {
   }
 
 .footer-social {
-    padding: 0 20px;
     font-size: 1.5em;
     text-align:center;
   }
@@ -476,15 +474,40 @@ footer {
   
 .certification{
     display:flex;
-    width:40%;
+    width:100%;
     align-items:flex-end;
     justify-content:center;
   }
   
 .row_one a, .row_two a, .row_three a {
     text-decoration: none;
-    color:wheat;
+    color: white;
   }
+
+  
+  .align_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  
+  .social_networks{
+    font-size: 0.4cm;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+  }
+
+i{
+    font-size:30px;
+   }
+
+i:hover{
+     font-size:60px;
+   }
 
 /* Debut mode Mobile*/
  
@@ -596,5 +619,79 @@ footer {
 /* Fin partie Lilian*/
 
 /* Partie Mamanite */
+.contact{
+  border:none;
+  border-radius: 0px;
+}
 
+._contact {
+  text-align: left;
+  color:#406633;
+  width:100%;
+}
+
+footer{
+  flex-direction: column;
+  padding-bottom:50px;
+  padding-top:10px;
+  height: 100%;
+  align-items: center;
+
+}
+
+.align_footer{
+  flex-direction:column;
+  align-items: center;
+  width:100%;
+}
+
+.row_one{
+  width: 100%;
+  height: 100%;
+  order:2;
+  font-size: 0.85em;
+  margin-top:5%;
+}
+
+.row_two{
+  width: 100%;
+  height: 100%;
+  order:1;
+  margin-top:5%;
+}
+
+.row_three {
+  width: 100%;
+  height: 100%;
+  order:3;
+  font-size: 0.85em;
+  margin-top:5%;
+}
+
+.Connect_with_us{
+  align-items: center;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom:20px;
+}
+
+.social_networks{
+  width:100%;
+  margin-top:5%;
+}
+
+.certification{
+  font-size: 0.8em;
+  width: 100%;
+}
+
+i{
+  font-size: 20px;
+}
+
+i:hover{
+  font-size: 20px;
+  color:#406633;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
 }
