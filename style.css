@@ -511,48 +511,39 @@ i:hover{
 
 /* Debut mode Mobile*/
  
-@media screen and (max-width: 1651px) {
-​
-    .conseils {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-​
-    .photoUne {
-        margin: 30px;
-        align-items: center;
-    }    
-    
-    .collecte {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-   
-    .details {
-        align-items: center;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-​
-​
-    .Photo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-   
-    .photoDeux {
-        margin: 30px;
-        width: 400px;
-        height: 400px;
-​
-    }
-       
-    .photoTrois, .photoQuatre {
-        display: none;
-    }
+@media screen and (max-width: 1640px) {
+   .conseils {
+       display: flex;
+       /flex-direction: column;/
+       align-items: center;
+   }
+   .photoUne {
+       margin: 30px;
+       align-items: center;
+   }
+   .collecte {
+       display: flex;
+       /flex-direction: column-reverse;/
+       align-items: center;
+   }
+   .details {
+       align-items: center;
+       margin-left: 10%;
+       margin-right: 10%;
+   }
+   .Photo {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   .photoDeux {
+       margin: 30px;
+       width: 400px;
+       height: 400px;
+   }
+   .photoTrois, .photoQuatre {
+       display: none;
+   }
 }
 
 @media screen and (max-width:961px) {
@@ -614,7 +605,38 @@ i:hover{
 
 /* Partie Lilian*/
 
-
+ .conseils {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   .photoUne {
+       margin: 30px;
+       align-items: center;
+   }
+   .collecte {
+       display: flex;
+       flex-direction: column-reverse;
+       align-items: center;
+   }
+   .details {
+       align-items: center;
+       margin-left: 10%;
+       margin-right: 10%;
+   }
+   .Photo {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   .photoDeux {
+       margin: 30px;
+       width: 400px;
+       height: 400px;
+   }
+   .photoTrois, .photoQuatre {
+       display: none;
+   }
 
 /* Fin partie Lilian*/
 
