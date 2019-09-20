@@ -195,6 +195,7 @@ background-color: rgba(71, 126, 32, 0.85);
 .conseils {
   display: flex;
   justify-content: space-around;
+  flex-wrap:wrap;
 }
 
 .photoUne {
