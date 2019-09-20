@@ -40,50 +40,53 @@ h2, h3 {
 
 /* HEADER / CAROUSEL JO' */
 
-.header{
-margin-left:1%;
-margin-right:1%
-}
 nav{
-margin-top:1%;
-background-color: #79b266;
-font-size:2.5vw;
-border-radius:20px;
-border : outset 2px;
+    display:flex;
+    background-color: #406633;
+    font-size:1rem;
+    width:100%;
+    padding: 1% 0;
 }
 .links {
-  display: flex;
-  align-items: center;
-}
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width:100%;
+  }
 nav img{
-  border-radius:50%;
-  margin-left: 2%;
+    display:flex;
+    align-self:center;
+    margin-left:2rem;
+    width:2rem;
+	  height:2rem;
 }
 nav a {
-  color:white;
-  padding:1%;
-  font-family: 'Titillium Web', sans-serif;
-  margin-left: 5%;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration-line: none;
+    padding:0.4%;
 }
-.burger{
-  display:none;
-  color:white;
-  padding:1%;
-  font-family: 'Titillium Web', sans-serif;
-  margin-left: 5%;
+.burger, .close{
+    display:none;
+    color:white;
+    padding:1%;
+    font-family: 'Titillium Web', sans-serif;
 }
 nav a:hover{
-  opacity : 0.8;
-  cursor: pointer;
-  background-color:white;
-  color:#79b266;
-  border-radius:83% 17% 79% 21% / 22% 72% 28% 78% ;
+    opacity : 0.8;
+    cursor: pointer;
+    background-color:white;
+    color:#406633;
+    border-radius:83% 17% 79% 21% / 22% 72% 28% 78% ;
 }
 .carousel img{
-  width:100%;
-  border-radius:20px;
-  border : outset 2px;
+    width:100%;
+
+
 }
+  /* Partie Jo' Responsive */
+
+ 
 
 /* section actions LUCAS */
 
@@ -537,13 +540,34 @@ footer {
 /* Fin Head */
 /* Partie Jo' */
 
+ nav{
+    justify-content:space-between;
+  }
+  .burger, .close{
+     display:block;
+     margin-right:2rem;
+     align-self: flex-end;
+}
+  .close {
+    position: absolute;
+    top:10px;
+    right:10px;
+  }
+  .links {
+      display: none;
+}
+  .links:target {
+      display: flex;
+      flex-direction:column;
+      position:absolute;
+      background-color: #406633;
+      width: 100vw;
+      height: 32vh;
+      top: 0;
+      padding: 10vw;
+      box-sizing: border-box;
 
-.burger{
-   display:block;
-}
-.links a{
-    display: none;
-}
+  }
 
 /* Fin Parie Jo' */
 
