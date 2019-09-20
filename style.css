@@ -196,7 +196,7 @@ background-color: rgba(71, 126, 32, 0.85);
   display: flex;
   justify-content: space-around;
 }
-​
+
 .photoUne {
   width: 400px;
   height: 400px;
@@ -205,7 +205,7 @@ background-color: rgba(71, 126, 32, 0.85);
   -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.42);
   -moz-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.42);
 }
-​
+
 .texteUn {
     width: 60%;
     font-family: 'Open Sans', sans-serif;
@@ -214,28 +214,28 @@ background-color: rgba(71, 126, 32, 0.85);
     border-radius: 10px;
     border: outset 2px;
 }
-​
+
 .fat {
     font-weight: bolder;
     color: rgba(71, 126, 32, 0.85);
 }
-​
+
 .fatDeux {
     font-weight: bolder;
     color: rgba(71, 126, 32, 0.85);
 }
-​
+
 .collecte {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-​
+
 .Photo {
     display: flex;
     align-items: center;
 }
-​
+
 .photoDeux {
     margin-left: 7%;
     width: 400px;
@@ -244,7 +244,7 @@ background-color: rgba(71, 126, 32, 0.85);
     -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.42);
     
 }
-​
+
 .photoTrois {
     margin-top: 40%;
     width: 200px;
@@ -252,7 +252,7 @@ background-color: rgba(71, 126, 32, 0.85);
     border-radius: 50%;
     -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.42);
 }
-​
+
 .photoQuatre {
     margin-bottom: 40%;
     margin-right: 30%;
@@ -261,8 +261,8 @@ background-color: rgba(71, 126, 32, 0.85);
     border-radius: 50%;
     -webkit-box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.42);
 }
-​
-​
+
+
 .lienUn {
     font-family: 'Open Sans', sans-serif;
     cursor: pointer;
@@ -270,7 +270,7 @@ background-color: rgba(71, 126, 32, 0.85);
     text-decoration: none;
     font-weight: bolder;
 }
-​
+
 .lienDeux {
     font-family: 'Open Sans', sans-serif;
     cursor: pointer;
@@ -278,7 +278,7 @@ background-color: rgba(71, 126, 32, 0.85);
     text-decoration: none;
     font-weight: bolder;
 }
-​
+
 .lienTrois {
     font-family: 'Open Sans', sans-serif;
     cursor: pointer;
@@ -286,20 +286,20 @@ background-color: rgba(71, 126, 32, 0.85);
     text-decoration: none;
     font-weight: bolder;
 }
-​
+
 .encombrants {
   height: 150px;
 }
-​
+
 .dechetteries {
     height: 285px;
 }
-​
+
 .Vege {
     height: 285px;
 }
-​
-​
+
+
 details summary {
   font-family: 'Open Sans', sans-serif;
   padding: 2%;
@@ -311,13 +311,13 @@ details summary {
   color: rgba(71, 126, 32, 0.85);
   font-weight: bolder;
 }
-​
+
 details li {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
 }
-​
-​
+
+
 details > summary {
 font-family: 'Open Sans', sans-serif;
 padding: 2%;
@@ -327,7 +327,7 @@ font-size: 1.5em;
 border-radius: 0 0 10px 10px;
 box-shadow: 1px 1px 2px black;
 }
-​
+
 details > p {
 font-family: 'Open Sans', sans-serif;
 background-color: white;
